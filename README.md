@@ -26,7 +26,8 @@ A beautiful and interactive cat gallery application built with React, TypeScript
 src/
 ├── components/          # Reusable UI components
 │   ├── BreedSelect.tsx # Breed selection dropdown
-│   └── CatCard.tsx     # Cat display card component
+│   ├── CatCard.tsx     # Cat display card component
+│   └── Header.tsx      # App header with navigation and filters
 ├── lib/
 │   └── api.ts          # API integration with TheCatAPI
 ├── store/
